@@ -33,8 +33,8 @@ public:
 
   void play_round(){
     std::pair<bool, bool> game;
-    game.first = m_strat1(m_game);
-    game.second = m_strat2(m_game);
+    game.first = m_strat1(0, m_game);
+    game.second = m_strat2(1, m_game);
     
     if ((game.first == 1) && (game.second == 1)){
       m_count1 += 3;
