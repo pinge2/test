@@ -4,4 +4,4 @@
 
 
 using GameHistory = std::vector<std::pair<bool, bool>>;
-typedef bool (*GameStrategy)(GameHistory&);
+typedef bool (*GameStrategy)(bool, const GameHistory&);
