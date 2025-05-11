@@ -60,4 +60,4 @@ public:
   std::pair<int, int> get_results(){
     return std::make_pair(m_count1, m_count2);
   }
-}
+};
