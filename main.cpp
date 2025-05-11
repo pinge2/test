@@ -12,6 +12,7 @@ int results[9] = {};
 
 
 int main(){
+  srand(time(0));
   Game main_tour;
 
   for (int i = 0; i < 9; ++i){
