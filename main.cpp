@@ -22,6 +22,6 @@ int main(){
       results[i] += main_tour.get_results().first;
     }
 
-    std::cout << i << ": " << results[i];
+    std::cout << i << ": " << results[i] << std::endl;
   }
 }
