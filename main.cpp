@@ -21,5 +21,7 @@ int main(){
       main_tour.play(200);
       results[i] += main_tour.get_results().first;
     }
+
+    std::cout << i << ": " << results[i];
   }
 }
