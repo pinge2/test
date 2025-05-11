@@ -8,3 +8,4 @@
 #include "strategies/sample.cpp"
 #include "strategies/friedman.cpp"
 #include "strategies/juggernaut.cpp"
+#include "strategies/random.cpp"
