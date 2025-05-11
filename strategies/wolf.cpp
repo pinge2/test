@@ -17,8 +17,10 @@ namespace strat{
       --angry_count;
       if (angry_count <= 0){
         angry_count = 1;
-        return 1
+        return 1;
       }
     }
+    
+    return 1;
   }
 }
