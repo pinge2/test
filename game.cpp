@@ -1,4 +1,4 @@
-#include "strategies/strategy.hpp"
+#include "strategies.hpp"
 
 
 /*
