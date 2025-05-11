@@ -2,7 +2,7 @@
 
 
 namespace strat{
-  bool random_(bool pos, const GameHistory& game){
+  bool random_strat(bool pos, const GameHistory& game){
     return rand() % 2;
   }
 }
