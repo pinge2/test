@@ -5,7 +5,7 @@
 GameStrategy strategies[] = {
   strat::tit_for_tat, strat::friedman, strat::joss,
   strat::grasscamp, strat::tester, strat::sample,
-  strat::random_, strat::wolf, strat::juggernaut
+  strat::random_strat, strat::wolf, strat::juggernaut
 };
 
 int results[9] = {};
